@@ -1,0 +1,27 @@
+ems_type,family,structure_group,erd_level,description,vuln_class_min,vuln_class_max,vuln_class_most_likely,vc_prior_A,vc_prior_B,vc_prior_C,vc_prior_D,vc_prior_E,vc_prior_F
+M1,MASONRY,Masonry,,"rubble stone, fieldstone",A,A,A,1,0,0,0,0,0
+M2,MASONRY,Masonry,,adobe (earth brick),A,B,A,0.666666667,0.333333333,0,0,0,0
+M3,MASONRY,Masonry,,simple stone,A,B,B,0.333333333,0.666666667,0,0,0,0
+M4,MASONRY,Masonry,,massive stone,B,D,C,0,0.25,0.5,0.25,0,0
+M5,MASONRY,Masonry,,"manufactured stone units, timber floors",A,C,B,0.25,0.5,0.25,0,0,0
+M6,MASONRY,Masonry,,manufactured stone with RC floors,B,D,C,0,0.25,0.5,0.25,0,0
+M7,MASONRY,Masonry,,reinforced or confined with RC floors,C,E,D,0,0,0.25,0.5,0.25,0
+RC1-L,RC,RC_cast_in_situ,L,frame,A,D,C,0.133333333,0.266666667,0.4,0.2,0,0
+RC1-M,RC,RC_cast_in_situ,M,frame with moderate ERD,B,E,D,0,0.133333333,0.266666667,0.4,0.2,0
+RC1-H,RC,RC_cast_in_situ,H,frame with high ERD,C,F,E,0,0,0.133333333,0.266666667,0.4,0.2
+RC2-L,RC,RC_cast_in_situ,L,wall,B,D,C,0,0.25,0.5,0.25,0,0
+RC2-M,RC,RC_cast_in_situ,M,wall with moderate ERD,C,E,D,0,0,0.25,0.5,0.25,0
+RC2-H,RC,RC_cast_in_situ,H,wall with high ERD,D,F,E,0,0,0,0.25,0.5,0.25
+RC3-L,RC,RC_cast_in_situ,L,dual system,B,D,C,0,0.25,0.5,0.25,0,0
+RC3-M,RC,RC_cast_in_situ,M,dual system with moderate ERD,C,E,D,0,0,0.25,0.5,0.25,0
+RC3-H,RC,RC_cast_in_situ,H,dual system with high ERD,D,F,E,0,0,0,0.25,0.5,0.25
+RC4,RC,RC_cast_in_situ,,flat slab,A,D,B,0.2,0.4,0.266666667,0.133333333,0,0
+RC5-L,RC,RC_precast,L,frame,A,D,C,0.133333333,0.266666667,0.4,0.2,0,0
+RC5-M,RC,RC_precast,M,frame with moderate ERD,B,E,D,0,0.133333333,0.266666667,0.4,0.2,0
+RC6-L,RC,RC_precast,L,wall or dual system,B,D,C,0,0.25,0.5,0.25,0,0
+RC6-M,RC,RC_precast,M,wall or dual system with moderate ERD,C,E,D,0,0,0.25,0.5,0.25,0
+S-L,STEEL,Steel,L,frame,C,F,D,0,0,0.2,0.4,0.266666667,0.133333333
+S-M/H,STEEL,Steel,M/H,frame with moderate or high ERD,D,F,E,0,0,0,0.25,0.5,0.25
+T1,TIMBER,Timber,,traditional,B,D,C,0,0.25,0.5,0.25,0,0
+T2-L,TIMBER,Timber,L,frame or wall,B,E,D,0,0.133333333,0.266666667,0.4,0.2,0
+T2-M/H,TIMBER,Timber,M/H,frame or wall with moderate/high ERD,D,F,E,0,0,0,0.25,0.5,0.25
